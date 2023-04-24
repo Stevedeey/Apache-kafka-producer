@@ -28,5 +28,4 @@ public class KafkaConfig {
     public KafkaTemplate kafkaTemplate(){
         return new KafkaTemplate(producerFactory());
     }
-    //creating Kafka Template that will use the ProducerFactory
 }
